@@ -1,0 +1,207 @@
+@font-face {
+	font-family: Inter;
+	src: url("./fonts/Inter-VariableFont_slnt\,wght.ttf");
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: "Inter";
+	position: relative;
+}
+
+html {
+	font-size: 62.5%;
+}
+
+body {
+	width: 100%;
+	/* height: 100vh; */
+	background-color: hsl(36, 100%, 99%);
+	/* overflow: hidden; */
+	padding: 5rem 14rem;
+}
+
+/* General styles */
+
+.link,
+.link:link,
+.link:visited,
+.link:active,
+.btn,
+.btn:link,
+.btn:visited,
+.btn:active {
+	text-decoration: none;
+	color: inherit;
+	border: none;
+	background-color: inherit;
+	cursor: pointer;
+	font-size: 1.4rem;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+	color: hsl(236, 13%, 42%);
+}
+
+.text {
+	color: hsl(236, 13%, 42%);
+	font-size: 1.3rem;
+	font-weight: 400;
+	letter-spacing: 0.5px;
+}
+
+/* End of General styles */
+
+/* Header styles */
+header {
+	width: 100%;
+	height: 4rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo-Div,
+.logo {
+	height: 100%;
+}
+
+.navbar,
+.nav-list,
+.nav-item,
+.nav-link {
+	height: 100%;
+	display: flex;
+	/* gap: 3rem; */
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.nav-link {
+	padding: 0 2rem;
+}
+
+.nav-item:last-child .nav-link:last-child {
+	padding-right: 0;
+}
+
+/* End of Header styles */
+
+/* Main styles */
+
+main {
+	width: 100%;
+	height: 100%;
+	margin-top: 4rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+/* Post Styles */
+.post-container {
+	width: 68%;
+}
+
+.post-img-div {
+	width: 100%;
+	height: 45vh;
+	background-image: url("./images/image-web-3-desktop.jpg");
+	background-size: cover;
+	background-position: center;
+}
+
+.post-info {
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.post-title-div {
+	width: 45%;
+}
+
+.post-title {
+	font-size: 5rem;
+	font-weight: 800;
+	letter-spacing: 0.1rem;
+	/* width: 100%; */
+}
+
+.post-des-div {
+	padding-right: 1rem;
+	width: 45%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+
+.post-des {
+	line-height: 1.5;
+}
+
+.post-btn {
+	background-color: hsl(5, 85%, 63%);
+	color: hsl(36, 100%, 99%);
+	padding: 1.5rem 5rem;
+	letter-spacing: 2px;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+
+/* New Post Styles */
+
+.new-post-container {
+	width: 30%;
+	background-color: hsl(240, 100%, 5%);
+	padding: 3rem 2rem;
+}
+
+.new-title {
+	color: hsl(35, 77%, 62%);
+	font-size: 3.5rem;
+	font-weight: 700;
+	width: 100%;
+}
+
+.new-post-div {
+	margin-top: 2rem;
+	width: 100%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.new-post {
+	width: 100%;
+	height: 20%;
+	flex-direction: column;
+	display: flex;
+	justify-content: space-between;
+}
+
+.new-post-title {
+	font-size: 1.6rem;
+	font-weight: 700;
+	letter-spacing: 0.1rem;
+	color: hsl(36, 100%, 99%);
+}
+
+hr {
+	border-color: hsl(236, 13%, 42%);
+}
+
+/* Recent Post Styles */
+
+.recent-post-container {
+}
+
+/* End of Main styles */
