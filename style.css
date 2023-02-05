@@ -71,7 +71,7 @@ header {
 .nav-item,
 .nav-link {
 	height: 100%;
-	display: flex;
+	display: none;
 	/* gap: 3rem; */
 	justify-content: flex-end;
 	align-items: center;
