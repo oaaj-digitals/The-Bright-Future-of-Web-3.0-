@@ -71,10 +71,14 @@ header {
 .nav-item,
 .nav-link {
 	height: 100%;
-	display: none;
+	display: flex;
 	/* gap: 3rem; */
 	justify-content: flex-end;
 	align-items: center;
+}
+
+.menu-icon-div {
+	display: none;
 }
 
 .nav-link {
@@ -261,7 +265,7 @@ hr {
 	}
 
 	body {
-		padding: 6rem 10rem;
+		padding: 4rem 5rem;
 	}
 
 	.text {
@@ -273,7 +277,7 @@ hr {
 	}
 
 	.post-img-div {
-		height: 55rem;
+		height: 40vh;
 		background-image: url("./images/image-web-3-mobile.jpg");
 	}
 	.post-info {
@@ -327,5 +331,21 @@ hr {
 
 	.recent-post-title {
 		font-size: 2.5rem;
+	}
+
+	.menu-icon-div {
+		display: inline-block;
+		width: 6rem;
+		height: 100%;
+	}
+
+	.menu-icon-img {
+		width: 100%;
+		height: 100%;
+		display: block;
+	}
+
+	.nav-list {
+		display: none;
 	}
 }
