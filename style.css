@@ -348,20 +348,22 @@ hr {
 
 	.menu-icon-div {
 		display: inline-block;
-		width: 4rem;
-		height: 4rem;
+
 		z-index: 1000;
 	}
 
 	.menu-icon-img {
-		width: 100%;
-		height: 100%;
+		width: 4rem;
+		height: 4rem;
 		display: block;
+		position: static;
+		top: 4.01rem;
+		right: 5.01rem;
 	}
 
 	.nav-list {
 		display: none;
-		width: 70%;
+		width: 80%;
 		height: 100vh;
 		position: fixed;
 		top: 0;
@@ -395,7 +397,7 @@ hr {
 		width: 100%;
 		height: 100%;
 		padding: 4rem 6rem;
-		font-size: 5rem !important;
+		font-size: 3rem !important;
 		font-weight: 400 !important;
 		color: hsl(240, 100%, 5%);
 		justify-content: flex-start;

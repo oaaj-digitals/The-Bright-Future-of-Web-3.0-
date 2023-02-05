@@ -14,12 +14,14 @@ let close = (menuIcon, menu, menuBg) => {
 	menuIcon.classList.remove("opened");
 	menu.style.display = "none";
 	menuBg.style.display = "none";
+	menuIcon.style.position = "static";
 	window.removeEventListener("keyup", escClose);
 };
 
 let open = (menuIcon, menu, menuBg) => {
 	menuIcon.src = "./images/icon-menu-close.svg";
 	menuIcon.classList.add("opened");
+	menuIcon.style.position = "fixed";
 	menu.style.display = "flex";
 	menuBg.style.display = "block";
 	window.addEventListener("keyup", escClose);
